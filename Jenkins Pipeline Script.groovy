@@ -3,7 +3,8 @@ pipeline {
     stages{
         stage('------GIT CLONE------'){
             steps{
-                git url : 'https://github.com/sreenivasa1-protonmail/php.git',branch : 'main'
+                // Comment -- If private Repository we have to give Github Credentials
+                git url : 'https://github.com/Sreenivasa9593/Edu_Project.git',branch : 'main'
           
       }
     }
